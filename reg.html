@@ -1,0 +1,31 @@
+</head>
+<body>
+<h2>Event Registration Form</h2>
+<form onsubmit="alert('Successfully Registered!');return false;">
+Full Name:
+<input type="text" required><br><br>
+Email:
+<input type="text" required><br><br>
+Phone Number:
+<input type="tel" pattern="[0-9]{10}" required><br><br>
+Password:
+<input type="password" required><br><br>
+Gender:
+<input type="radio" name="gender" required>Male
+<input type="radio" name="gender">Female
+<br><br>
+Select Event:
+<select required>
+<option value="">Choose Event</option>
+<option>Coding Competition</option>
+<option>Hackathon</option>
+<option>Seminar</option>
+<option>Workshop</option>
+</select>
+<br><br>
+<input type="submit" value="Register">
+<input type="reset" value="clear">
+</form>
+</body>
+</html>
+
